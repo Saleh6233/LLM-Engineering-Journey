@@ -8,16 +8,16 @@ All implementations are built using Python and PyTorch, with a strong focus on u
 
 ---
 
-## 🚀 Goals
+## 🚀 Roadmap
 
 This repository is organized around the following learning objectives:
 
-- [ ] Small LLM from Scratch
+- [x] Small LLM from Scratch
+- [ ] Alignment Training
 - [ ] Attention Visualizations
-- [ ] Alignment & Preference Optimization
 - [ ] QLoRA Fine-Tuning
 
-As I progress through the course, I will continuously update this repository with notebooks, experiments, visualizations, training runs, and implementation notes.
+I will continue updating this repository section by section as I progress through the course.
 
 ---
 
@@ -25,21 +25,28 @@ As I progress through the course, I will continuously update this repository wit
 
 ### Small LLM from Scratch
 
-- [x] SentencePiece tokenization
-- [x] Dataset encoding and caching
-- [x] Batch generation pipeline
-- [x] GPT architecture initialization
-- [x] Forward pass implementation
-- [ ] Attention mechanism
-- [ ] Multi-head attention
-- [ ] Training loop
-- [ ] Checkpointing
-- [ ] Text generation
+Completed work in this section includes:
+
+- SentencePiece tokenization
+- Dataset encoding and caching
+- Batch generation pipeline
+- GPT architecture initialization
+- Forward pass implementation
+- Transformer blocks and attention core
+- Cross-entropy loss and manual NLL calculation
+- Autoregressive text generation
+- End-to-end training loop
+- Experiment tracking with Weights & Biases
+
+This section is now complete, and I will move next into **Alignment Training**.
+
+### Next Section
+
+- [ ] Alignment Training
 
 ### Upcoming Sections
 
 - [ ] Attention Visualizations
-- [ ] Alignment Training
 - [ ] QLoRA Fine-Tuning
 
 ---
@@ -50,6 +57,7 @@ As I progress through the course, I will continuously update this repository wit
 - PyTorch
 - SentencePiece
 - Jupyter Notebook
+- Weights & Biases
 
 ---
 
