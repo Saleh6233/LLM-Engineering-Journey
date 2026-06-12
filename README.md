@@ -40,9 +40,9 @@ Completed work in this section includes:
 
 This section is now complete, and I will move next into **Alignment Training**.
 
-### Next Section
+### Alignment Section
 
-- [ ] Alignment Training
+I am now moving into the alignment part of the course. At this stage, I am exploring the pretrained LLaMA-style model, running inference, and preparing the baseline before starting alignment training.
 
 ### Upcoming Sections
 
